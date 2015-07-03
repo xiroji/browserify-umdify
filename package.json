@@ -1,5 +1,5 @@
 {
-  "name": "vue-component-amd-compiler",
+  "name": "vue-amdify",
   "version": "1.0.0",
   "description": "This module uses vue-component-compiler to construct a CommonJS module and then adds a bit of code so the component can be used in a AMD setting.",
   "main": "index.js",
