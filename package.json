@@ -15,8 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "browser-unpack": "^1.0.1",
-    "lodash": "^3.10.0",
-    "through": "^2.3.7"
+    "lodash": "^3.10.0"
   },
   "bin": {
     "vue-amdify": "bin/cmd.js"
