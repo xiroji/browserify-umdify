@@ -1,6 +1,8 @@
-   var stream = require('../');
-   var vueamd = new stream();
+#!/usr/bin/env node
 
-   process.stdin
-       .pipe(vueamd)
-       .pipe(process.stdout);
+var VueAmdify = require('../');
+var processor = new VueAmdify();
+
+process.stdin
+   .pipe(processor)
+   .pipe(process.stdout);
