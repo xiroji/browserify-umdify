@@ -1,26 +1,30 @@
 {
-  "name": "browserify-umdify",
-  "version": "1.0.1",
-  "description": "This module constructs a UMD module from a Browserify CommonJS module",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha"
-  },
-  "keywords": [
-    "vue",
-    "component",
-    "umd",
-    "amd",
-    "browserify",
-    "commonjs"
-  ],
-  "author": "Hardeep Shoker",
-  "license": "MIT",
-  "dependencies": {
-    "browser-unpack": "^1.0.1",
-    "lodash": "^3.10.0"
-  },
-  "bin": {
-    "browserify-umdify": "bin/cmd.js"
-  }
+    "name": "browserify-umdify",
+    "version": "1.0.1",
+    "description": "This module constructs a UMD module from a Browserify CommonJS module",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/xiroji/browserify-umdify"
+    },
+    "scripts": {
+        "test": "mocha"
+    },
+    "keywords": [
+        "vue",
+        "component",
+        "umd",
+        "amd",
+        "browserify",
+        "commonjs"
+    ],
+    "author": "Hardeep Shoker",
+    "license": "MIT",
+    "dependencies": {
+        "browser-unpack": "^1.0.1",
+        "lodash": "^3.10.0"
+    },
+    "bin": {
+        "browserify-umdify": "bin/cmd.js"
+    }
 }
