@@ -1,6 +1,6 @@
 {
     "name": "browserify-umdify",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "This module constructs a UMD module from a Browserify CommonJS module",
     "main": "index.js",
     "repository": {
