@@ -58,6 +58,8 @@ function VueUmdify(exports) {
     }
 
     this.exports = exports || [];
+
+    this.buffer = '';
 };
 
 
@@ -68,25 +70,30 @@ VueUmdify.prototype._transform = function(chunk, encoding, done) {
         this.writtenHeader = true;
     }
 
-    if (this.sniffExports) {
-        var unpacked = unpack(chunk);
-        var self = this;
-        _.each(unpacked, function(val, key) {
-            if (val.id) {
-                if (val.id && !_.isNumber(val.id)) {
-                    self.exports.push(val.id);
-                }
-            }
-        });
-    }
-
-    this.push(chunk);
+    this.buffer += chunk.toString('utf8');
 
     done();
 };
 
 
 VueUmdify.prototype._flush = function() {
+
+    if (this.sniffExports) {
+        try {
+            var unpacked = unpack(this.buffer);
+            var self = this;
+            _.each(unpacked, function(val, key) {
+                if (val.id) {
+                    if (!_.isNumber(val.id)) {
+                        self.exports.push(val.id);
+                    }
+                }
+            });
+        } catch (e) {}
+    }
+
+    this.push(this.buffer);
+
     this.push(footer(this.exports));
 }
 
