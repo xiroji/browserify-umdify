@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
-var VueAmdify = require('../');
-var processor = new VueAmdify();
+var BrowserifyUmdify = require('../');
+var umd = new BrowserifyUmdify();
 
 process.stdin
-   .pipe(processor)
-   .pipe(process.stdout);
+    .pipe(umd)
+    .pipe(process.stdout);

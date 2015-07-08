@@ -1,16 +1,12 @@
-# Vue AMDify
+# Browserify UMDify
 
-> This module takes a CommonJS module and turns it into an AMD compatible module.
-
-Why not use [r.js](http://requirejs.org/docs/commonjs.html#autoconversion) for converting CommonJS modules to AMD compatible ones? The resulting module created by r.js when loaded through the AMD loader will parse out the require('') calls resulting in erroneous messages about missing dependencies.
-
-The intent is to be able to leverage Vuejs and Browserify to create small, modular, self contained components that can be loaded via AMD.
+> This module takes a Browserify CommonJS module and turns it into an UMD compatible module.
 
 Usage:
 
-    var stream = require('vue-amdify');
-    var vueamd = new stream();
+    var BrowserifyUmdify = require('browserify-umdify');
+    var umd = new BrowserifyUmdify();
 
     process.stdin
-        .pipe(vueamd)
+        .pipe(umd)
         .pipe(process.stdout);
