@@ -1,7 +1,7 @@
 {
-  "name": "vue-amdify",
-  "version": "1.0.0",
-  "description": "This module uses vue-component-compiler to construct a CommonJS module and then adds a bit of code so the component can be used in a AMD setting.",
+  "name": "browserify-umdify",
+  "version": "1.0.1",
+  "description": "This module constructs a UMD module from a Browserify CommonJS module",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -9,7 +9,10 @@
   "keywords": [
     "vue",
     "component",
-    "amd"
+    "umd",
+    "amd",
+    "browserify",
+    "commonjs"
   ],
   "author": "Hardeep Shoker",
   "license": "MIT",
@@ -18,6 +21,6 @@
     "lodash": "^3.10.0"
   },
   "bin": {
-    "vue-amdify": "bin/cmd.js"
+    "browserify-umdify": "bin/cmd.js"
   }
 }
