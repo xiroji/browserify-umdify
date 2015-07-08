@@ -27,7 +27,7 @@ Then the following will work:
 
 ### Browser without a module loader
 
-    <script src="umd-bundle.js"></script>
+    <script src="umd-build.js"></script>
     <script>
         console.log(window.myModule);
     </script>
