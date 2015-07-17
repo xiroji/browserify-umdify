@@ -8,12 +8,13 @@ var Transform = require('stream')
 
 var unpack = require('browser-unpack');
 var _ = require('lodash');
+var path = require('path');
 
 
 Util.inherits(VueUmdify, Transform);
 
 
-var headerContent = fs.readFileSync('./header.template');
+var headerContent = fs.readFileSync(path.join(__dirname, 'header.template'));
 
 
 var header = function() {
