@@ -1,5 +1,7 @@
 # Browserify UMDify
 
+[![Dependency Status](https://david-dm.org/xiroji/browserify-umdify.svg)](https://david-dm.org/xiroji/browserify-umdify)
+
 > This module takes a Browserify CommonJS module and turns it into an UMD compatible module.
 
 if modules are exported with browserify using the `--require` switch they'll also be exported via this module.
