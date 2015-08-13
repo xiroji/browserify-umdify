@@ -2,6 +2,7 @@
 
 [![Join the chat at https://gitter.im/xiroji/browserify-umdify](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/xiroji/browserify-umdify?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Dependency Status](https://david-dm.org/xiroji/browserify-umdify.svg)](https://david-dm.org/xiroji/browserify-umdify)
+[![npm version](https://badge.fury.io/js/browserify-umdify.svg)](http://badge.fury.io/js/browserify-umdify)
 
 > This module takes a Browserify CommonJS module and turns it into an UMD compatible module.
 
