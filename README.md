@@ -1,6 +1,6 @@
 # Browserify UMDify
 
-[![Join the chat at https://gitter.im/xiroji/browserify-umdify](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/xiroji/browserify-umdify?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Slack Status](https://friends.xiroji.com/badge.svg)](https://friends.xiroji.com)
 [![Dependency Status](https://david-dm.org/xiroji/browserify-umdify.svg)](https://david-dm.org/xiroji/browserify-umdify)
 [![npm version](https://badge.fury.io/js/browserify-umdify.svg)](http://badge.fury.io/js/browserify-umdify)
 
