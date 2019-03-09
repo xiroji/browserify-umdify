@@ -21,8 +21,8 @@
     "author": "Hardeep Shoker",
     "license": "MIT",
     "dependencies": {
-        "browser-unpack": "^1.0.1",
-        "lodash": "^3.10.0"
+        "browser-unpack": "^1.4.2",
+        "lodash": "^4.17.11"
     },
     "bin": {
         "browserify-umdify": "bin/cmd.js"
