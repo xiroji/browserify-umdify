@@ -1,6 +1,5 @@
 # Browserify UMDify
 
-[![Slack Status](https://friends.xiroji.com/badge.svg)](https://friends.xiroji.com)
 [![Dependency Status](https://david-dm.org/xiroji/browserify-umdify.svg)](https://david-dm.org/xiroji/browserify-umdify)
 [![npm version](https://badge.fury.io/js/browserify-umdify.svg)](http://badge.fury.io/js/browserify-umdify)
 
